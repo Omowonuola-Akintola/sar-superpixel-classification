@@ -2,13 +2,13 @@
 
 This project implements an object-based image analysis (OBIA) workflow for SAR image segmentation and classification using superpixels and Random Forest (RF) classification. The goal is to distinguish water and non-water regions in synthetic aperture radar (SAR) imagery.
 
-## Overview**
+## Overview
 
-**Input Data**: Multiband SAR .tif image (e.g., VV, VH)
-**Segmentation**: Superpixel generation using SNIC (Simple Non-Iterative Clustering)
-**Feature Extraction**: Mean, standard deviation, texture (entropy) per segment
-**Classification**: Random Forest classifier for water vs non-water
-**Visualization**: Segment overlays and class prediction map
+- **Input Data**: Multiband SAR .tif image (e.g., VV, VH)
+- **Segmentation**: Superpixel generation using SNIC (Simple Non-Iterative Clustering)
+- **Feature Extraction**: Mean, standard deviation, texture (entropy) per segment
+- **Classification**: Random Forest classifier for water vs non-water
+- **Visualization**: Segment overlays and class prediction map
 
 ## Workflow
 
