@@ -15,11 +15,11 @@ This project implements an object-based image analysis (OBIA) workflow for SAR i
 **Preprocessing:**
 
 - The SAR data used has already been "processed to a radiometric and terrain-corrected (RTC) image of the radar amplitude and converted to a grayscale image for visual analysis”. [Data Source](https://source.coop/nasa/floods)
--SAR Channels Used:
-    -VV: Vertical transmit and vertical receive
-    -VH: Vertical transmit and horizontal receive
-    -VV/VH Ratio 
--These three bands were stacked into a 3-channel SAR '.tif' image as a multispectral input.
+- SAR Channels Used:
+    - VV: Vertical transmit and vertical receive
+    - VH: Vertical transmit and horizontal receive
+    - VV/VH Ratio 
+- These three bands were stacked into a 3-channel SAR '.tif' image as a multispectral input.
 
 ![3 channel SAR](image/readme_img/3band_sar.jpeg)
 
@@ -47,7 +47,7 @@ This project implements an object-based image analysis (OBIA) workflow for SAR i
 
 Overlay segments and classification results on original image
 
-![Prediction](image/readme_img/prediction.jpeg)
+![Prediction](image/readme_img/prediction.png)
 
 ## Folder Structure
 - `data/` – input SAR images
