@@ -1,6 +1,11 @@
 #!/bin/bash
 
-# Install build tools
-apt-get update && apt-get install -y build-essential
+# Install GCC and build tools
+apt-get update
+apt-get install -y build-essential
+
+# Install required Python packages
+pip install cffi
+
 
 python SNIC/snic_python_sar/compile_snic_lib.py
