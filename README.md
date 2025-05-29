@@ -34,8 +34,6 @@ The output should be as follows:
   <img src="image/readme_img/sar_snic_500.jpeg" width="400" />
 </p>
 
-![SuperPixesl](image/readme_img/sar_snic_500.jpeg)
-
 **Feature Extraction:**
 
 - Compute segment-wise mean & standard deviation
