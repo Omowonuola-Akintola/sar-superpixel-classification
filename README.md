@@ -2,6 +2,11 @@
 
 This project implements an object-based image analysis (OBIA) workflow for SAR image segmentation and classification using superpixels and Random Forest (RF) classification. The goal is to distinguish water and non-water regions in synthetic aperture radar (SAR) imagery.
 
+## Usage
+You can either clone this GitHub repository or use it directly online via Binder using the link below:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Omowonuola-Akintola/sar-superpixel-classification/6b32c35d0d83b7c62aa1c040d0693e264d2fb39e?urlpath=lab%2Ftree%2FSNIC%2Fsnic_python_sar%2FSAR_OBIA_SEGMENTATION.ipynb)
+
 ## Overview
 
 - **Input Data**: Multiband SAR .tif image (e.g., VV, VH)
