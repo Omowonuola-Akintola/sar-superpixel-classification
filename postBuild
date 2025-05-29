@@ -1,2 +1,2 @@
 #!/bin/bash
-python compile_snic_lib.py
+python python SNIC/snic_python_sar/compile_snic_lib.py
