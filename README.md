@@ -18,8 +18,8 @@ This project implements an object-based image analysis (OBIA) workflow for SAR i
 - SAR Channels Used:
     - VV: Vertical transmit and vertical receive
     - VH: Vertical transmit and horizontal receive
-    - VV/VH Ratio 
-- These three bands were stacked into a 3-channel SAR '.tif' image as a multispectral input.
+    - VV/VH Ratio: Manually computed
+- These three were stacked into a 3-channel SAR '.tif' image to form a multispectral input.
 
 ![3 channel SAR](image/readme_img/3band_sar.jpeg)
 
@@ -27,6 +27,12 @@ This project implements an object-based image analysis (OBIA) workflow for SAR i
 
 - Use SNIC to generate superpixels.
 - Extract superpixel labels
+
+The output should be as follows:
+
+<p float="center">
+  <img src="image/readme_img/sar_snic_500.jpeg" width="400" />
+</p>
 
 ![SuperPixesl](image/readme_img/sar_snic_500.jpeg)
 
@@ -52,5 +58,7 @@ Overlay segments and classification results on original image
 ## Folder Structure
 - `data/` – input SAR images
 - `SNIC/snic_python_sar/SAR_OBIA-SEGMENTATION.ipynb` – snic implementation and segmentation analysis notebook
+
+## Note
 
 For the SNIC algorithm, See: Achanta, Radhakrishna and Susstrunk, Sabine, 'Superpixels and Polygons using Simple Non-Iterative Clustering', CVPR, 2017
