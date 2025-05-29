@@ -1,3 +1,5 @@
 #!/bin/bash
 
-python3 SNIC/snic_python_sar/compile_snic_lib.py
+cd SNIC/snic_python_sar
+
+python3 compile_snic_lib.py
