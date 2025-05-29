@@ -1,2 +1,6 @@
 #!/bin/bash
-python python SNIC/snic_python_sar/compile_snic_lib.py
+
+# Install build tools
+apt-get update && apt-get install -y build-essential
+
+python SNIC/snic_python_sar/compile_snic_lib.py
