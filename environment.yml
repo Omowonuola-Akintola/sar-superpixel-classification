@@ -1,0 +1,13 @@
+name: sar_snic
+channels:
+  - defaults
+dependencies:
+  - python
+  - rasterio
+  - matplotlib
+  - scipy
+  - geopandas
+  - scikit-image
+  - ipykernel
+  - jupyter
+prefix: /Users/omowonuolaakintola/Software/anaconda3/envs/sar_snic
