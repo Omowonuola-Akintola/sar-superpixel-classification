@@ -5,7 +5,7 @@ This project implements an object-based image analysis (OBIA) workflow for SAR i
 ## Usage
 You can either clone this GitHub repository or use it directly online via Binder using the link below:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gesis.mybinder.org/user/omowonuola-akin--classification-kmguozij/doc/workspaces/auto-a/tree/SNIC/snic_python_sar/SAR_OBIA_SEGMENTATION.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Omowonuola-Akintola/sar-superpixel-classification/main?urlpath=%2Fdoc%2Ftree%2FSNIC%2Fsnic_python_sar%2FSAR_OBIA_SEGMENTATION.ipynb)
 
 ## Overview
 
