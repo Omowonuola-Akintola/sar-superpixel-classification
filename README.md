@@ -65,5 +65,5 @@ Overlay segments and classification results on original image
 
 ## Attribution
 
-[SNIC algorithm](https://github.com/achanta/SNIC). Achanta, Radhakrishna and Susstrunk, Sabine, 'Superpixels and Polygons using Simple Non-Iterative Clustering', CVPR, 2017
-[Feature extraction and Random Forest Classifier](https://github.com/dtiede/obia_tutorials_DT/blob/main/03_classification.ipynb).
+- [SNIC algorithm](https://github.com/achanta/SNIC). Achanta, Radhakrishna and Susstrunk, Sabine, 'Superpixels and Polygons using Simple Non-Iterative Clustering', CVPR, 2017
+- [Feature extraction and Random Forest Classifier](https://github.com/dtiede/obia_tutorials_DT/blob/main/03_classification.ipynb).
