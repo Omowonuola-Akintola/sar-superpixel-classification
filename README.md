@@ -2,6 +2,7 @@
 
 This project implements an object-based image analysis (OBIA) workflow for SAR image segmentation and classification using superpixels and Random Forest (RF) classification. The goal is to distinguish water and non-water regions in synthetic aperture radar (SAR) imagery.
 
+
 ## Usage
 You can either clone this GitHub repository or use it directly online via Binder using the link below:
 
@@ -62,6 +63,7 @@ Overlay segments and classification results on original image
 - `data/` – input SAR images
 - `SNIC/snic_python_sar/SAR_OBIA-SEGMENTATION.ipynb` – snic implementation and segmentation analysis notebook
 
-## References
+## Attribution
 
-For the SNIC algorithm, See: Achanta, Radhakrishna and Susstrunk, Sabine, 'Superpixels and Polygons using Simple Non-Iterative Clustering', CVPR, 2017
+[SNIC algorithm](https://github.com/achanta/SNIC). Achanta, Radhakrishna and Susstrunk, Sabine, 'Superpixels and Polygons using Simple Non-Iterative Clustering', CVPR, 2017
+[Feature extraction and Random Forest Classifier](https://github.com/dtiede/obia_tutorials_DT/blob/main/03_classification.ipynb).
